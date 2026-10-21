@@ -3,7 +3,7 @@
 > 基于 [CrewAI](https://github.com/joaomdmoura/crewAI) 的多智能体系统, 根据用户输入 (城市、天数、预算、偏好) 自动生成完整旅行计划: 每日行程、住宿、预算、本地推荐、参考来源与质量评分.
 
 ---
-!(assets/magichour_ai_gif-2026-10-21-576x576-cmvidk7vg0174it013taq0j8e(1).gif)
+![Демонстрация работы](assets/magichour_ai_gif-2026-10-21-576x576-cmvidk7vg0174it013taq0j8e(1).gif)
 ---
 
 ## 📁 项目结构
