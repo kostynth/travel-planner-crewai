@@ -4,8 +4,9 @@
 
 ---
 <p align="center">
-  <img src="assets/demo.gif" alt="Демонстрация работы" width="800" />
+  <img src="assets/magichour_ai_gif-2026-10-21-576x576-cmvidk7vg0174it013taq0j8e(1).gif" alt="Демонстрация работы" width="800" />
 </p>
+
 ---
 
 ## 📁 项目结构
