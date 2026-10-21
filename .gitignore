@@ -6,3 +6,21 @@ venv/
 .DS_Store
 output/*
 !output/.gitkeep
+
+# 下载的景点图片 (体积大, 按需重新抓取)
+data/images/*
+!data/images/.gitkeep
+
+# 本地密钥配置 (不要提交)
+.env
+.env.local
+
+# 编辑器与工具缓存
+.idea/
+.vscode/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/

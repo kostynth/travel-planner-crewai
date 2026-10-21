@@ -1,0 +1,18 @@
+# --- Основное / 核心依赖 ---
+crewai>=0.80.0
+crewai-tools>=0.12.0
+streamlit>=1.35.0
+plotly>=5.20.0
+pandas>=2.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# --- 景点图片下载 (icrawler + Bing 图片搜索) ---
+icrawler>=0.6.10
+
+# --- 云端 LLM (智谱 GLM, 经 litellm 路由) ---
+litellm>=1.106.0
+crewai==1.15.28
+litellm==1.102.4
+mcp==1.28.1

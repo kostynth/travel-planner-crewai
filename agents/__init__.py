@@ -1,8 +1,10 @@
 """所有 CrewAI 代理的工厂函数集合.
 
-每个子模块导出一个 ``create_*_agent() -> Agent`` 工厂函数。
+每个子模块导出一个 ``create_*_agent() -> Agent`` 工厂函数.
+所有代理默认使用智谱 GLM 模型 (见 ``config.get_llm``).
 """
 
+from .llm_factory import default_llm
 from .budget_agent import create_budget_agent
 from .coordinator import create_coordinator_agent
 from .hotel_agent import create_hotel_agent
@@ -14,6 +16,7 @@ from .visualizer import create_visualizer_agent
 from .web_researcher import create_web_researcher_agent
 
 __all__ = [
+    "default_llm",
     "create_coordinator_agent",
     "create_web_researcher_agent",
     "create_social_crawler_agent",
