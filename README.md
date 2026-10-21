@@ -14,7 +14,7 @@
 ```
 travel-planner-crewai/
 ├── README.md              ← 本文件
-├── requirements.txt       ← Python 依赖
+├── requirements.txt       ← Python  依赖
 ├── .gitignore
 ├── config.py              ← 配置与 API 密钥 (所有模块统一从这里读取)
 ├── agents/                ← 9 个代理, 每个独立文件
