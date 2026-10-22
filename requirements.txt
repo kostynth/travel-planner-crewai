@@ -14,5 +14,4 @@ icrawler>=0.6.10
 # --- 云端 LLM (智谱 GLM, 经 litellm 路由) ---
 litellm>=1.106.0
 crewai==1.15.28
-litellm==1.102.4
 mcp==1.28.1
